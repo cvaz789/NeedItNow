@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="5c6e50ba2fa5e1100924d4a72799b6ec" label="Providers Catalog" max_length="40" name="x_302552_needitnow_providers_catalog" type="collection">
         <element label="Account Manager" max_length="50" name="account_manager" reference="x_302552_needitnow_users_catalog" type="reference"/>
+        <element label="Assigned Representative" max_length="32" name="assigned_representative" reference="sys_user" type="reference"/>
         <element label="Bank" max_length="50" name="bank" type="string"/>
         <element label="Account Number" max_length="100" name="bank_account" type="string"/>
         <element label="City" max_length="100" name="city" type="string"/>
@@ -18,5 +19,8 @@
         <element choice="1" label="Provider type" max_length="40" name="type" type="choice">
             <choice/>
         </element>
+        <index name="index">
+            <element name="assigned_representative"/>
+        </index>
     </element>
 </database>

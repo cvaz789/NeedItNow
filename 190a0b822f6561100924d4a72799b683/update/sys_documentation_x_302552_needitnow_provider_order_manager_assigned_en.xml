@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="manager_assigned" label="Manager Assigned" language="en" table="x_302552_needitnow_provider_order">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>manager_assigned</element>
+            <help/>
+            <hint/>
+            <label>Manager Assigned</label>
+            <language>en</language>
+            <name>x_302552_needitnow_provider_order</name>
+            <plural>Manager Assigned</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-16 21:15:23</sys_created_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Manager Assigned</sys_name>
+            <sys_package display_value="NeedItNow" source="x_302552_needitnow">190a0b822f6561100924d4a72799b683</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedItNow">190a0b822f6561100924d4a72799b683</sys_scope>
+            <sys_update_name>sys_documentation_x_302552_needitnow_provider_order_manager_assigned_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-16 21:25:11</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
