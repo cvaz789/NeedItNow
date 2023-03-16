@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="081da43a2fe5e1100924d4a72799b649" label="Users Catalog" max_length="40" name="x_302552_needitnow_users_catalog" type="collection">
+        <element label="Assigned Representative" max_length="32" name="assigned_representative" reference="sys_user" type="reference"/>
+        <element label="Company Provider" max_length="32" name="company_provider" reference="x_302552_needitnow_providers_catalog" type="reference"/>
+        <element label="Contact number" max_length="50" name="contact_number" type="string"/>
+        <element label="E-mail" max_length="50" name="e_mail" type="string"/>
+        <element label="Last Name" max_length="50" name="last_name" type="string"/>
+        <element label="Name" max_length="50" name="name" type="string"/>
+        <element label="Title" max_length="50" name="title" type="string"/>
+        <index name="index">
+            <element name="assigned_representative"/>
+        </index>
+        <index name="index2">
+            <element name="company_provider"/>
+        </index>
+    </element>
+</database>

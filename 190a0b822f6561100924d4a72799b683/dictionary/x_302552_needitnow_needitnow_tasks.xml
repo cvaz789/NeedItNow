@@ -1,5 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="210bc78e2f6561100924d4a72799b6a0" label="NeedItNow Tasks" max_length="40" name="x_302552_needitnow_needitnow_tasks" type="collection">
-        <element attributes="edge_encryption_enabled=true" label="E-mail contact" max_length="50" name="u_mail_contact" type="string"/>
-    </element>
+    <element db_object_id="e13dd47a2fa5e1100924d4a72799b655" extends="task" label="NeedItNow Tasks" max_length="40" name="x_302552_needitnow_needitnow_tasks" type="collection"/>
 </database>

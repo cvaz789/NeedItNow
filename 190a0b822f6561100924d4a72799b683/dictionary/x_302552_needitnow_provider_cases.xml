@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="fbb420322fe5e1100924d4a72799b616" extends="task" label="Provider Cases" max_length="40" name="x_302552_needitnow_provider_cases" type="collection">
+        <element label="Provider" max_length="32" name="provider" reference="x_302552_needitnow_providers_catalog" type="reference"/>
+    </element>
+</database>

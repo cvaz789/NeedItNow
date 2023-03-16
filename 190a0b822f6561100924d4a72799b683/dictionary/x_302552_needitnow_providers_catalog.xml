@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5c6e50ba2fa5e1100924d4a72799b6ec" label="Providers Catalog" max_length="40" name="x_302552_needitnow_providers_catalog" type="collection">
+        <element label="Account Manager" max_length="50" name="account_manager" type="string"/>
+        <element label="Bank" max_length="50" name="bank" type="string"/>
+        <element label="Account Number" max_length="100" name="bank_account" type="string"/>
+        <element label="City" max_length="100" name="city" type="string"/>
+        <element label="Director" max_length="50" name="director" type="string"/>
+        <element label="E-mail Address" max_length="20" name="e_mail_address" type="string"/>
+        <element label="General Manager" max_length="50" name="general_manager" type="string"/>
+        <element label="Name" max_length="50" name="name" type="string"/>
+        <element label="Physical Address" max_length="100" name="physical_address" type="string"/>
+        <element choice="1" label="Preferred Payment Method" max_length="40" name="preferred_payment_method" type="choice">
+            <choice/>
+        </element>
+        <element label="Provider since" max_length="40" name="provider_since" type="glide_date_time"/>
+        <element label="State" max_length="50" name="state" type="string"/>
+        <element label="Telephone Number" max_length="20" name="telephone_number" type="string"/>
+        <element choice="1" label="Provider type" max_length="40" name="type" type="choice">
+            <choice/>
+        </element>
+    </element>
+</database>

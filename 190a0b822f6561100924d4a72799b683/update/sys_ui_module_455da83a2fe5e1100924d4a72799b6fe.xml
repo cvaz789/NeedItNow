@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="NeedItNow">73dc547a2fa5e1100924d4a72799b67b</application>
+        <filter/>
+        <name>Users Catalogs</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_302552_needitnow.users_catalog_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-16 18:00:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>455da83a2fe5e1100924d4a72799b6fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Users Catalogs</sys_name>
+        <sys_package display_value="NeedItNow" source="x_302552_needitnow">190a0b822f6561100924d4a72799b683</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedItNow">190a0b822f6561100924d4a72799b683</sys_scope>
+        <sys_update_name>sys_ui_module_455da83a2fe5e1100924d4a72799b6fe</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-16 18:00:53</sys_updated_on>
+        <table>x_302552_needitnow_users_catalog</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>
