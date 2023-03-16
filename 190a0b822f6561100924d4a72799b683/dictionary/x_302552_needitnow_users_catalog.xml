@@ -4,8 +4,9 @@
         <element label="Company Provider" max_length="32" name="company_provider" reference="x_302552_needitnow_providers_catalog" type="reference"/>
         <element label="Contact number" max_length="50" name="contact_number" type="string"/>
         <element label="E-mail" max_length="50" name="e_mail" type="string"/>
+        <element label="First Name" max_length="100" name="first_name" type="string"/>
         <element label="Last Name" max_length="50" name="last_name" type="string"/>
-        <element label="Name" max_length="50" name="name" type="string"/>
+        <element display="true" label="Name" max_length="100" name="name" read_only="true" type="string"/>
         <element label="Title" max_length="50" name="title" type="string"/>
         <index name="index">
             <element name="assigned_representative"/>

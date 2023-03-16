@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="account_manager" table="x_302552_needitnow_providers_catalog">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="first_name" table="x_302552_needitnow_users_catalog">
         <active>true</active>
         <array>false</array>
         <attributes/>
@@ -13,7 +13,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Account Manager</column_label>
+        <column_label>First Name</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -26,21 +26,21 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>account_manager</element>
+        <element>first_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Reference">reference</internal_type>
+        <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
-        <max_length>50</max_length>
-        <name>x_302552_needitnow_providers_catalog</name>
+        <max_length>100</max_length>
+        <name>x_302552_needitnow_users_catalog</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="x_302552_needitnow_users_catalog">x_302552_needitnow_users_catalog</reference>
+        <reference/>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -51,14 +51,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-03-16 17:19:37</sys_created_on>
-        <sys_name>Account Manager</sys_name>
+        <sys_created_on>2023-03-16 18:50:48</sys_created_on>
+        <sys_name>First Name</sys_name>
         <sys_package display_value="NeedItNow" source="x_302552_needitnow">190a0b822f6561100924d4a72799b683</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedItNow">190a0b822f6561100924d4a72799b683</sys_scope>
-        <sys_update_name>sys_dictionary_x_302552_needitnow_providers_catalog_account_manager</sys_update_name>
+        <sys_update_name>sys_dictionary_x_302552_needitnow_users_catalog_first_name</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-16 18:43:44</sys_updated_on>
+        <sys_updated_on>2023-03-16 18:50:48</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
