@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="" label="User Catalog" language="en" table="x_302552_needitnow_users_catalog">
+    <sys_documentation element="requested_for" label="Requested for" language="en" table="x_302552_needitnow_needitnow1">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element/>
+            <element>requested_for</element>
             <help/>
             <hint/>
-            <label>User Catalog</label>
+            <label>Requested for</label>
             <language>en</language>
-            <name>x_302552_needitnow_users_catalog</name>
-            <plural>User Catalog</plural>
+            <name>x_302552_needitnow_needitnow1</name>
+            <plural>Requested for</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-03-16 18:00:54</sys_created_on>
-            <sys_mod_count>4</sys_mod_count>
-            <sys_name>User Catalog</sys_name>
+            <sys_created_on>2023-03-23 18:20:23</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Requested for</sys_name>
             <sys_package display_value="NeedItNow" source="x_302552_needitnow">190a0b822f6561100924d4a72799b683</sys_package>
             <sys_policy/>
             <sys_scope display_value="NeedItNow">190a0b822f6561100924d4a72799b683</sys_scope>
-            <sys_update_name>sys_documentation_x_302552_needitnow_users_catalog__en</sys_update_name>
+            <sys_update_name>sys_documentation_x_302552_needitnow_needitnow1_requested_for_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-03-23 17:51:28</sys_updated_on>
+            <sys_updated_on>2023-03-23 18:20:23</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

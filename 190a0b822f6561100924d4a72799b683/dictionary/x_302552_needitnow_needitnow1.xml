@@ -1,3 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="92ac98762fa5e1100924d4a72799b670" extends="task" label="NeedItNow1" max_length="40" name="x_302552_needitnow_needitnow1" type="collection"/>
+    <element db_object_id="92ac98762fa5e1100924d4a72799b670" extends="task" label="NeedItNow" max_length="40" name="x_302552_needitnow_needitnow1" type="collection">
+        <element label="Contact" max_length="50" name="contact" type="string"/>
+        <element label="NeedIt by" max_length="40" name="needit_by" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:gs.getUserName()" label="Requested by" max_length="40" name="requested_by" reference="sys_user" type="reference"/>
+        <element default="javascript:gs.getUserName()" display="true" label="Requested for" max_length="32" name="requested_for" reference="sys_user" type="reference"/>
+    </element>
 </database>
