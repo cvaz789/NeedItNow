@@ -2,18 +2,18 @@
     <sys_script_include action="INSERT_OR_UPDATE">
         <access>package_private</access>
         <active>true</active>
-        <api_name>x_302552_needitnow.GetEmailAddress</api_name>
+        <api_name>x_302552_needitnow.GetUserData</api_name>
         <caller_access/>
         <client_callable>true</client_callable>
         <description/>
-        <name>GetEmailAddress</name>
-        <script><![CDATA[var GetEmailAddress = Class.create();
-GetEmailAddress.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+        <name>GetUserData</name>
+        <script><![CDATA[var GetUserData = Class.create();
+GetUserData.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 
     getEmail: function() {
 		
 		var searchParam = this.getParameter('sysparm_userId');
-		var userAddress = '';
+		var dataArray = [];
 		
 		gs.info('searchParam: ' + searchParam);
 
@@ -23,31 +23,40 @@ GetEmailAddress.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 			userRecord.query();
 
         if (userRecord.next()) {
-            userAddress = userRecord.getDisplayValue('email');
+			
+			var dataObj = {};
+			
+			dataObj.userName = userRecord.getDisplayValue('user_name');
+			dataObj.userAddress = userRecord.getDisplayValue('email');
+			dataObj.userTitle = userRecord.getDisplayValue('title');
+			dataObj.userDept = userRecord.getDisplayValue('department');			
+            
+			dataArray.push(dataObj);
+			
         }
 		
 		
-		return userAddress;
-		gs.info('userAddress: ' + userAddress);
+		return dataArray;
+		
 
         
 
     },
 
 
-    type: 'GetEmailAddress'
+    type: 'GetUserData'
 });]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-03-23 19:06:21</sys_created_on>
-        <sys_id>1fb8bc812f7121100924d4a72799b66b</sys_id>
-        <sys_mod_count>8</sys_mod_count>
-        <sys_name>GetEmailAddress</sys_name>
+        <sys_created_on>2023-03-24 18:38:12</sys_created_on>
+        <sys_id>a592cad52fb121100924d4a72799b6b2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>GetUserData</sys_name>
         <sys_package display_value="NeedItNow" source="x_302552_needitnow">190a0b822f6561100924d4a72799b683</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="NeedItNow">190a0b822f6561100924d4a72799b683</sys_scope>
-        <sys_update_name>sys_script_include_1fb8bc812f7121100924d4a72799b66b</sys_update_name>
+        <sys_update_name>sys_script_include_a592cad52fb121100924d4a72799b6b2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-24 18:06:54</sys_updated_on>
+        <sys_updated_on>2023-03-24 18:46:40</sys_updated_on>
     </sys_script_include>
 </record_update>
